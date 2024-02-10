@@ -26,5 +26,11 @@ label, input, textarea {
     width: 100%;
 }
 
+h1 {
+    margin-top: 0;
+    margin-bottom: 64px;
+    text-align: center;
+}
+
 
 
