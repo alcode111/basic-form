@@ -21,16 +21,28 @@ body {
     background: linear-gradient(135deg, #768948, white);
 }
 
-label, input, textarea {
-    display: block;
-    width: 100%;
-}
-
 h1 {
     margin-top: 0;
     margin-bottom: 64px;
     text-align: center;
 }
 
+label, input, textarea {
+    display: block;
+    width: 100%;
+}
 
+label {
+    margin-bottom: 4px;
+}
 
+input, textarea {
+    margin-bottom: 16px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+textarea {
+    height: 100px;
+}
