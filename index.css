@@ -45,6 +45,8 @@ input, textarea {
 
 textarea {
     height: 100px;
+    resize: none;
+
 }
 
 .submit-btn {
